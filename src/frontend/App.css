@@ -1,0 +1,16 @@
+#root {
+  margin: 0;
+  padding: 0; /* had to remove padding bc it was causing issues with the navbar displaying */
+  height: 100%;
+}
+
+.full-background {
+  background-image: url('/homepagebg.jpg'); /* Root-relative path from public/ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+

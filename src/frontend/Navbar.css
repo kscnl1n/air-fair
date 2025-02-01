@@ -1,0 +1,41 @@
+/* Style for the Navbar */
+
+.navbar {
+    position: fixed;           /* Keep navbar at the top as you scroll */
+    top: 0;
+    left: 0;
+    width: 100%;               /* Make navbar span the full screen width */
+    background: linear-gradient(90deg, rgba(255,111,0,1) 0%, rgba(255,150,0,1) 35%, rgba(255,176,0,1) 100%);
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;             /* Ensures navbar stays above other elements */
+    box-sizing: border-box; /* Stops overflow of links (makes padding part of total width instead of adding to it */
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    /* font-weight: bold; */
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
