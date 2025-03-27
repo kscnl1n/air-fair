@@ -7,8 +7,9 @@ function App() {
 
   return (
       <div className='full-background'>
-        <main style={{ paddingTop: '80px', TextAlign: 'center' }}>
-        <p>Test site</p>
+        <main className='centered-main'>
+        <h1>Welcome to Air Fair!</h1>
+        <p className='homepage-text'></p>
         <Navbar />
         </main>
       </div>
